@@ -2,7 +2,7 @@ import psutil; import time
 from pypresence import Presence
 from gpuinfo import GPUInfo
 
-client_id = '818263820756713522'  # Fake ID, put your real one here
+client_id = 'BRUH'  # Fake ID, put your real one here
 RPC = Presence(client_id,pipe=0)  # Initialize the client class
 RPC.connect() # Start the handshake loop
 
